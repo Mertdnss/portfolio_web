@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazılım Geliştirici Portfolyo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animasyon Kütüphanesi CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Swiper Slider CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>Dev</span>Portfolio
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Ana Sayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#skills">Yetenekler</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Ana Sayfa Bölümü -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                <h1>Merhaba, Ben <span class="highlight">Yazılım Geliştirici</span></h1>
+                <p>Modern ve yaratıcı web çözümleri geliştiriyorum</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">Projelerimi Gör</a>
+                    <a href="#contact" class="btn secondary">İletişime Geç</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Hakkımda Bölümü -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Hakkımda</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=500&q=80" alt="Profil Resmi">
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="300">
+                    <h3>Ben Kimim?</h3>
+                    <p>5 yıllık deneyime sahip bir yazılım geliştiricisiyim. Modern web teknolojileri konusunda uzmanlaşmış olup, kullanıcı dostu ve yenilikçi çözümler üretmeyi seviyorum.</p>
+                    <p>Sürekli kendimi geliştirmeye ve yeni teknolojileri öğrenmeye odaklanıyorum. Takım çalışmasına yatkın, problem çözme becerileri güçlü bir geliştiriciyim.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <h4>İsim</h4>
+                                <p>Ahmet Yılmaz</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@example.com</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Konum</h4>
+                                <p>İstanbul, Türkiye</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <h4>Doğum Tarihi</h4>
+                                <p>1 Ocak 1990</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn primary">CV'mi İndir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yetenekler Bölümü -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Yeteneklerim</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-text" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Teknik Yeteneklerim</h3>
+                    <p>Yazılım geliştirme sürecinde kullandığım teknolojiler ve araçlar aşağıda listelenmiştir. Sürekli olarak kendimi geliştiriyor ve yeni teknolojileri öğreniyorum.</p>
+                </div>
+                <div class="skills-bars" data-aos="fade-left" data-aos-delay="300">
+                    <div class="skill">
+                        <div class="skill-name">HTML & CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">React.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Node.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-icons" data-aos="fade-up" data-aos-delay="400">
+                <div class="tech-icon"><i class="fab fa-html5"></i></div>
+                <div class="tech-icon"><i class="fab fa-css3-alt"></i></div>
+                <div class="tech-icon"><i class="fab fa-js"></i></div>
+                <div class="tech-icon"><i class="fab fa-react"></i></div>
+                <div class="tech-icon"><i class="fab fa-node-js"></i></div>
+                <div class="tech-icon"><i class="fab fa-python"></i></div>
+                <div class="tech-icon"><i class="fab fa-git-alt"></i></div>
+                <div class="tech-icon"><i class="fab fa-npm"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeler Bölümü -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Projelerim</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="web">Web Geliştirme</button>
+                <button class="filter-btn" data-filter="app">Mobil Uygulama</button>
+                <button class="filter-btn" data-filter="design">UI/UX Tasarım</button>
+            </div>
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-item" data-category="web">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Proje 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Ticaret Platformu</h3>
+                        <p>Modern bir e-ticaret web sitesi tasarımı ve geliştirmesi</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Kaynak Kod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="app">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Proje 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Takip Uygulaması</h3>
+                        <p>Kullanıcıların fitness hedeflerini takip edebilecekleri mobil uygulama</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Kaynak Kod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="design">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Proje 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolyo Tasarımı</h3>
+                        <p>Minimalist ve modern bir portfolyo web sitesi tasarımı</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Kaynak Kod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="web">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Proje 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Platformu</h3>
+                        <p>Kişisel blog yazıları paylaşmak için geliştirilen platform</p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Kaynak Kod</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="app">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Proje 5">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hava Durumu Uygulaması</h3>
+                        <p>Gerçek zamanlı hava durumu bilgilerini gösteren uygulama</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Demo</a>
+                            <a href="#" class="btn small secondary">Kaynak Kod</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Referanslar Bölümü -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Referanslar</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="swiper testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="testimonial-img">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80" alt="Referans 1">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>"Ahmet ile çalışmak harika bir deneyimdi. Projemizi zamanında ve beklentilerimizin ötesinde tamamladı."</p>
+                                <h3>Mehmet Yılmaz</h3>
+                                <h4>XYZ Şirketi CEO'su</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="testimonial-img">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80" alt="Referans 2">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>"Teknik bilgisi ve problem çözme yeteneği ile projemize büyük katkı sağladı. Kesinlikle tekrar çalışmak isteriz."</p>
+                                <h3>Ayşe Demir</h3>
+                                <h4>ABC Teknoloji Direktörü</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="testimonial-img">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80" alt="Referans 3">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>"Modern ve kullanıcı dostu arayüzler tasarlama konusunda uzman. İşbirliğimizden çok memnun kaldık."</p>
+                                <h3>Can Yıldız</h3>
+                                <h4>DEF Startup Kurucusu</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>İletişim</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@example.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telefon</h3>
+                        <p>+90 555 123 4567</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Adres</h3>
+                        <p>İstanbul, Türkiye</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="300">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="İsminiz">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Adresiniz">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Konu">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Mesajınız"></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>Dev</span>Portfolio
+                </div>
+                <p>Modern ve yaratıcı web çözümleri</p>
+                <div class="footer-links">
+                    <a href="#home">Ana Sayfa</a>
+                    <a href="#about">Hakkımda</a>
+                    <a href="#skills">Yetenekler</a>
+                    <a href="#projects">Projeler</a>
+                    <a href="#contact">İletişim</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 DevPortfolio. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Dosyaları -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
